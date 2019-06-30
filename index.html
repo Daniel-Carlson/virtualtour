@@ -79,7 +79,7 @@
             material="shader: flat; src: ${thumb}"
             event-set__mouseenter="scale: 1.2 1.2 1"
             event-set__mouseleave="scale: 1 1 1"
-            event-set__click="_target: #image-360; _delay: 300; material.src: ${src}"
+            event-set__click="_target: #image-360; _delay: 100; material.src: ${src}"
             proxy-event="event: click; to: #hotspot; as: fade"
             sound="on: click; src: #image-360"></a-entity>
             <a-entity>
@@ -156,7 +156,7 @@
 
       <!-- Camera + cursor. -->
       <a-entity id="cam" camera position="0 1.6 0" look-controls >
-        <a-entity cursor="fuse:true;fuseTimeout:2000"
+        <a-entity cursor="fuse:true;fuseTimeout:1000"
                   geometry="primitive:ring;radiusInner:0.01;radiusOuter:0.02"
                   position="0 0 -1.8"
                   material="shader:flat;color:#ff0000"
