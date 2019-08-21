@@ -1,0 +1,6 @@
+This project contains around 212 MB of photo graphs. At my current internet speed it is estimated to take 47 seconds
+load the application. 
+
+
+^^^ There needs to be some way to compress the images even if the result is reduced quality. This need sto be able to run
+on some really slow web browsers to be applicable.
